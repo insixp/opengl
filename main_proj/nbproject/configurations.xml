@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>primitives/3d_primitives.h</itemPath>
+      <itemPath>shaders/BUFFER_ARRAY.h</itemPath>
+      <itemPath>primitives/CAMERA.h</itemPath>
+      <itemPath>primitives/CUBE.h</itemPath>
+      <itemPath>primitives/OBJECT.h</itemPath>
+      <itemPath>shaders/PROGRAM.h</itemPath>
+      <itemPath>shaders/SHADER.h</itemPath>
+      <itemPath>primitives/cube.h</itemPath>
+      <itemPath>utils/errors.h</itemPath>
+      <itemPath>globals.h</itemPath>
+      <itemPath>main.h</itemPath>
+      <itemPath>shaders/shader.h</itemPath>
+      <itemPath>utils/utils.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>primitive.fragment.glsl</itemPath>
+      <itemPath>primitive.vertex.glsl</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>shaders/BUFFER_ARRAY.cpp</itemPath>
+      <itemPath>primitives/CAMERA.cpp</itemPath>
+      <itemPath>primitives/CUBE.cpp</itemPath>
+      <itemPath>primitives/OBJECT.cpp</itemPath>
+      <itemPath>shaders/PROGRAM.cpp</itemPath>
+      <itemPath>shaders/SHADER.cpp</itemPath>
+      <itemPath>close_function.cpp</itemPath>
+      <itemPath>keyboard_function.cpp</itemPath>
+      <itemPath>load_function.cpp</itemPath>
+      <itemPath>render_function.cpp</itemPath>
+      <itemPath>resize_function.cpp</itemPath>
+      <itemPath>utils/utils.cpp</itemPath>
+      <itemPath>win_main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../../../../../../../MinGW/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>glew32</linkerLibLibItem>
+            <linkerLibLibItem>glew32s</linkerLibLibItem>
+            <linkerLibLibItem>freeglut</linkerLibLibItem>
+            <linkerLibLibItem>freeglut_static</linkerLibLibItem>
+            <linkerOptionItem>-lopengl32 -lglu32 -lglew32</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="close_function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="globals.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="keyboard_function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="load_function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitive.fragment.glsl" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitive.vertex.glsl" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitives/3d_primitives.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitives/CAMERA.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="primitives/CAMERA.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitives/CUBE.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="primitives/CUBE.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitives/OBJECT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="primitives/OBJECT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitives/cube.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="render_function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="resize_function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="shaders/BUFFER_ARRAY.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="shaders/BUFFER_ARRAY.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shaders/PROGRAM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="shaders/PROGRAM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shaders/SHADER.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="shaders/SHADER.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shaders/shader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/errors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="utils/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="win_main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>glew32</linkerLibLibItem>
+            <linkerLibLibItem>glew32s</linkerLibLibItem>
+            <linkerLibLibItem>freeglut</linkerLibLibItem>
+            <linkerLibLibItem>freeglut_static</linkerLibLibItem>
+            <linkerOptionItem>-lopengl32 -lglu32 -lglew32</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="close_function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="globals.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="keyboard_function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="load_function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitive.fragment.glsl" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitive.vertex.glsl" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitives/3d_primitives.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitives/CAMERA.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="primitives/CAMERA.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitives/CUBE.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="primitives/CUBE.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitives/OBJECT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="primitives/OBJECT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="primitives/cube.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="render_function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="resize_function.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="shaders/BUFFER_ARRAY.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="shaders/BUFFER_ARRAY.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shaders/PROGRAM.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="shaders/PROGRAM.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shaders/SHADER.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="shaders/SHADER.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shaders/shader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/errors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils/utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="utils/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="win_main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
